@@ -6,4 +6,6 @@ var vehicle = [
 
 console.log(vehicle);
 
-console.log(vehicle[1][1]);
+console.log(vehicle[0]);
+
+console.log(vehicle[1][0]);
