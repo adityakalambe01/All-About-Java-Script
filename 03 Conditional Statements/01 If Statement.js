@@ -18,3 +18,4 @@ if(age === stringAge){
 }else{
     console.log("Inside else");
 }
+
