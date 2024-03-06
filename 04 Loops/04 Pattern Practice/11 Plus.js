@@ -1,4 +1,4 @@
-var n = 15;
+var n = 5;
 
 var mid = Math.ceil(n/2);
 
@@ -13,3 +13,9 @@ for(var i = 1; i <= n; i++){
     }
     console.log();
 }
+
+//     +     
+//     +
+// + + + + +
+//     +
+//     +
