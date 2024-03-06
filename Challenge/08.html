@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08</title>
+</head>
+<body>
+    <script>
+        var number = prompt("Enter whole number","");
+        console.log(number);
+        if(number<10){
+            console.log("you entered number is less than 10");
+            for(var i = 0; i < 10; i++){
+                var textString = `Here is a ${i}`;
+                if(number == i){
+                    console.log(textString+" <-- this is your number!");
+                }else{
+                    console.log(textString);
+                }
+            }
+        }else if(number>9){
+            console.log("you entered big number");
+        }else{
+            console.log("Error: you didn't entered a number");
+        }
+    </script>
+</body>
+</html>
