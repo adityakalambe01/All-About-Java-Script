@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13</title>
+</head>
+<body>
+    <script>
+        function hello(name){
+            if(name === null || name.trim() === ""){
+                console.log("You didn't give me a name");
+            }else{
+                console.log(`Hello ${name}!`);
+            }
+        }
+        hello(
+            prompt("What is your name?","")
+        );
+    </script>
+</body>
+</html>
